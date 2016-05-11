@@ -1,19 +1,19 @@
 ## Modelling and simulating a real store in a Petri Net
 
-<nav style='font-align:justify'>The main goal of the project is model and simulate a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit.
+<nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit.
 
 This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/andrelage/home/lectures/2015-2" target="_blank">Petri Nets</a>, lectured by <a href="https://github.com/proflage/" target="_blank">Professor Leandro Dias</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
 In the source files, you can find:
 
-- `projcet-v1.0-with-hierarchy` to load in CPN Tools;
+- `project-v1.0-with-hierarchy.cpn` to load in CPN Tools;
 - `screenshots/` a folder containing screenshots of the petri net.
 
 Feel free to perform a pull request to the project, implementing additional functions or improving some of the existents.<br>
 
 </nav>
 
-### CPN-Tools
+### CPN Tools
 
 CPN Tools is a tool for editing, simulating, and analyzing Colored Petri nets.
 
@@ -32,4 +32,5 @@ To download CPN Tools, you can click <a href='http://cpntools.org/download' targ
 
 ### References
 
-[1] < todo > <br>
+[1] Colored Petri Nets, available at < http://www.cs.au.dk/~cpnbook/ > <br>
+[2] CPN Tools, available at < http://cpntools.org/ > <br>
