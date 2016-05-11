@@ -32,7 +32,7 @@ The client goes to the doctor, that explains to the client that he needs an hear
 
 #### Batteries
 
-The client goes to the store to buy batteries for his device. The store checks the batterie needed by the client. If the store has a low stock of batteries it makes an request to the supplier.
+The client goes to the store to buy batteries for his device. The store checks the batteries needed by the client. If the store has a low stock of batteries it makes an request to the supplier.
 
 #### Supplier specifications
 
@@ -62,6 +62,88 @@ The store payes four bills:
 
 #### Table of Values
 
+##### Devices
+
+<table>
+	<tr>
+		<td>Device</td>
+		<td>Value at Store</td>
+		<td>Value at Supplier</td>
+	</tr>
+	<tr>
+		<td>Low-end</td>
+		<td>1.500$</td>
+		<td>750$</td>
+	</tr>
+	<tr>
+		<td>Standard</td>
+		<td>4.500$</td>
+		<td>2.250$</td>
+	</tr>
+	<tr>
+		<td>High-end</td>
+		<td>7.500$</td>
+		<td>3.750$</td>
+	</tr>
+</table>
+
+##### Batteries
+
+<table>
+	<tr>
+		<td>Battery</td>
+		<td>Value at Store</td>
+		<td>Value at Supplier</td>
+	</tr>
+	<tr>
+		<td>Regular Battery</td>
+		<td>4$</td>
+		<td>2$</td>
+	</tr>
+</table>
+
+##### Employees
+
+<table>
+	<tr>
+		<td>Employee</td>
+		<td>Value</td>
+	</tr>
+	<tr>
+		<td>Audiologist</td>
+		<td>50$/report and 50$/calibration</td>
+	</tr>
+	<tr>
+		<td>Accountant</td>
+		<td>500$/month</td>
+	</tr>
+</table>
+
+##### Bills
+
+<table>
+	<tr>
+		<td>Bill</td>
+		<td>Value</td>
+	</tr>
+	<tr>
+		<td>Water</td>
+		<td>25$</td>
+	</tr>
+	<tr>
+		<td>Energy</td>
+		<td>100$</td>
+	</tr>
+	<tr>
+		<td>Rent</td>
+		<td>800$</td>
+	</tr>
+	<tr>
+		<td>Phone/Internet</td>
+		<td>250$</td>
+	</tr>
+</table>
+
 #### Additional informations
 
 - The store has a medium sale of 12 batteries/day;
@@ -73,10 +155,10 @@ The store payes four bills:
 
 ### Credits
 
-<a href="http://www.durvalpereira.com.br" target="_blank">Durval Pereira</a>. Contact me  <a href="mailto:contato@durvalpereira.com.br">here</a>.<br>
+<a href="http://www.durvalpereira.com.br" target="_blank">Durval Pereira</a>. Contact me  <a href="mailto:contato@durvalpereira.com.br">here</a><br>
 <a href="http://bit.ly/durvallattes" target="_blank">Lattes</a> <a href="https://www.linkedin.com/in/durvalpereira">LinkedIn</a> <a href="http://twitter.com/DurvalPCN">Twitter</a> <a href="http://www.facebook.com/durvalpereiracn">Facebook</a> <a href="http://plus.google.com/+DurvalPereiraCesar">Google+</a>
 
-<a href="#" target="_blank">Bruno dos Anjos</a>.
+<a href="#" target="_blank">Bruno dos Anjos</a>
 
 ### References
 
