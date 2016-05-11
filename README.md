@@ -1,1 +1,1 @@
-# petrinet
+# petrinets
