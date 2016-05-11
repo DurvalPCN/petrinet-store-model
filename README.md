@@ -1,6 +1,6 @@
 ## Modelling and simulating a real store in a Petri Net
 
-<nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit.
+<nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit. To develop the petri net we used CPN Tools version 4.0.1, released in Feb. 2015 and the latest version by the time when the project was made.
 
 This project was made to be graded at the course of <a href="http://www.cs.au.dk/~cpnbook/" target="_blank">Petri Nets</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4766554T7" target="_blank">Professor Leandro Dias</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
@@ -26,14 +26,13 @@ To download CPN Tools, you can click <a href='http://cpntools.org/download' targ
 
 ### Explaining the Petri Net
 
-#### Hearing aids devices flow
+#### Hearing aids devices
 
-(1) O cliente vai ao médico. O médico fala para o paciente que o cliente(C) precisa de uma aparelho auditivo e fala que C precisa fazer um exame para ter as especificações do aparelho. (2) C vai faz o exame e recebe o laudo que contém as especificações do aparelho que C vai usar. (3) C procura a loja para compra o aparelho, o fonodiologo da loja verifica o laudo e a (4) loja faz o pedido para o fornecedor que envia o aparelho seundo a especificações do laudo o mais rápido
-possivel. (5) Com o aparelho na loja, o fonodiologo da loja faz uma calibragem junto com C para deixar de forma confortavel aos ouvidos de C, e C leva o aparelho. A garantia funciona como o esquema depois do (3), mas sem custo para o cliente.
+The client goes to the doctor, that explains to the client that he needs an hearing aid device and must perform an exam to know the exact specifications of the device that he's going to use. The client does the exam and receives the report that contains the device specifications. The client goes to the store to buy the device, the audiologoist check the specifications presented on the report and the store requests to the supplier, that will send as soon as possible the device, respecting the report specifications. When the device arrives at the store, the store audiologist makes an calibration, along with the client, so the device can be the most confortable possible when used by the client in his ears. After that, the client takes the device and the warranty works the same way of the buy flow, with no cust to the client;
 
-#### Batteries flow
+#### Batteries
 
-(3) C vai a loja comprar pilhas para o aparelho. (5) A loja verifica vendo a pilha para C. (4) se a loja tiver com estoque de pilhas defazado ela faz pedido para fornecedor.
+The client goes to the store to buy batteries for his device. The store checks the batterie needed by the client. If the store has a low stock of batteries it makes an request to the supplier.
 
 #### Supplier specifications
 
@@ -49,7 +48,7 @@ The store has two products:
 - Batteries, in stock;
 - Hearing aids devices, with sales by demand, i.e., only when a client demands, the store requests to the supplier.
 
-The store has two employers:
+The store has two employees:
 
 - Audiologist;
 - Accountant.
@@ -65,12 +64,12 @@ The store payes four bills:
 
 #### Additional informations
 
-- A Loja tem uma média de venda de 12 pilhas por dia;
-- A Loja mantém o estoque de no máximo 100 pilhas, ao chegar em 40 pilhasr no estoque ela fazer um novo pedido de pilhas para renovar o estoque.(com mais 100 pilhas);
-- Vamos considerar que a loja abre apenas dias de semanas, logo teremos um mês de 20 dias;
-- O movimento se inicia sempre a partir do cliente;
-- No modelo no cpntolls os imposto e custo com funcionarios estão todos juntos;
-- Não esta se levando em consideração o imposto de 13% no final do ano em cima do faturamento.
+- The store has a medium sale of 12 batteries/day;
+- The store maintains the batteries stock at a maximum number of 100 batteries, when is downgraded to 40 batteries it makes a new request to the supplier to renew the stock and reaching again 100 batteries;
+- We are considering that the store opens only in comercial days, so we have a running month of 22 days;
+- The flow always starts from the client;
+- In CPN Tools model the bills and employees cust are merged;
+- The model isn't considering the 13% tax at the end of the year related to the incoming.
 
 ### Credits
 
