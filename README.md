@@ -24,6 +24,20 @@ CPN Tools is available for Windows, Linux and Mac OS X. If you use Linux/Mac OS 
 
 To download CPN Tools, you can click <a href='http://cpntools.org/download' target='_blank'>here</a>.
 
+### Explaining the Petri Net
+
+## Hearing aids devices flow
+
+## Batteries flow
+
+## Supplier specifications
+
+## Store specifications
+
+## Table of Values
+
+## Additional informations
+
 ### Credits
 
 <a href="http://www.durvalpereira.com.br" target="_blank">Durval Pereira</a>. Contact me  <a href="mailto:contato@durvalpereira.com.br">here</a>.<br>
