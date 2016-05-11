@@ -1,8 +1,8 @@
 ## Modelling and simulating a real store in a Petri Net
 
-<nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit. To develop the petri net we used CPN Tools version 4.0.1, released in Feb. 2015 and the latest version by the time when the project was made.
+<nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our case) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit. To develop the petri net we used CPN Tools version 4.0.1, released in Feb. 2015 and the latest version by the time when the project was made.
 
-This project was made to be graded at the course of <a href="http://www.cs.au.dk/~cpnbook/" target="_blank">Petri Nets</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4766554T7" target="_blank">Professor Leandro Dias</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
+This project was made to be graded at the elective course of <a href="http://www.cs.au.dk/~cpnbook/" target="_blank">Petri Nets</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4766554T7" target="_blank">Professor Leandro Dias da Silva</a> and available at <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/ciencia-da-computacao' target='_blank'>Computer Science</a> and <a href='http://www.ufal.edu.br/unidadeacademica/ic/graduacao/engenharia-de-computacao' target='_blank'>Computer Engineering</a> grades of the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
 In the source files, you can find:
 
@@ -24,7 +24,7 @@ CPN Tools is available for Windows, Linux and Mac OS X. If you use Linux/Mac OS 
 
 To download CPN Tools, you can click <a href='http://cpntools.org/download' target='_blank'>here</a>.
 
-### Explaining the Petri Net
+### Explaining the developed Petri Net
 
 #### Hearing aids devices - basic flow
 
