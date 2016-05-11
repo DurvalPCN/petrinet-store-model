@@ -26,17 +26,17 @@ To download CPN Tools, you can click <a href='http://cpntools.org/download' targ
 
 ### Explaining the Petri Net
 
-## Hearing aids devices flow
+#### Hearing aids devices flow
 
-## Batteries flow
+#### Batteries flow
 
-## Supplier specifications
+#### Supplier specifications
 
-## Store specifications
+#### Store specifications
 
-## Table of Values
+#### Table of Values
 
-## Additional informations
+#### Additional informations
 
 ### Credits
 
