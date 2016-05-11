@@ -28,15 +28,49 @@ To download CPN Tools, you can click <a href='http://cpntools.org/download' targ
 
 #### Hearing aids devices flow
 
+(1) O cliente vai ao médico. O médico fala para o paciente que o cliente(C) precisa de uma aparelho auditivo e fala que C precisa fazer um exame para ter as especificações do aparelho. (2) C vai faz o exame e recebe o laudo que contém as especificações do aparelho que C vai usar. (3) C procura a loja para compra o aparelho, o fonodiologo da loja verifica o laudo e a (4) loja faz o pedido para o fornecedor que envia o aparelho seundo a especificações do laudo o mais rápido
+possivel. (5) Com o aparelho na loja, o fonodiologo da loja faz uma calibragem junto com C para deixar de forma confortavel aos ouvidos de C, e C leva o aparelho. A garantia funciona como o esquema depois do (3), mas sem custo para o cliente.
+
 #### Batteries flow
+
+(3) C vai a loja comprar pilhas para o aparelho. (5) A loja verifica vendo a pilha para C. (4) se a loja tiver com estoque de pilhas defazado ela faz pedido para fornecedor.
 
 #### Supplier specifications
 
+The supplier has two products, always available:
+
+- Batteries;
+- Hearing aids devices.
+
 #### Store specifications
+
+The store has two products:
+
+- Batteries, in stock;
+- Hearing aids devices, with sales by demand, i.e., only when a client demands, the store requests to the supplier.
+
+The store has two employers:
+
+- Audiologist;
+- Accountant.
+
+The store payes four bills:
+
+- Water;
+- Energy;
+- Rent;
+- Phone and Internet.
 
 #### Table of Values
 
 #### Additional informations
+
+- A Loja tem uma média de venda de 12 pilhas por dia;
+- A Loja mantém o estoque de no máximo 100 pilhas, ao chegar em 40 pilhasr no estoque ela fazer um novo pedido de pilhas para renovar o estoque.(com mais 100 pilhas);
+- Vamos considerar que a loja abre apenas dias de semanas, logo teremos um mês de 20 dias;
+- O movimento se inicia sempre a partir do cliente;
+- No modelo no cpntolls os imposto e custo com funcionarios estão todos juntos;
+- Não esta se levando em consideração o imposto de 13% no final do ano em cima do faturamento.
 
 ### Credits
 
