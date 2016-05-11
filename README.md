@@ -2,7 +2,7 @@
 
 <nav style='font-align:justify'>The main goal of the project is model and simulate, in a Colored Petri Net [1] using CPN Tools [2], a real store (of hearing aids devices, in our example) to find possible cases of business failing (bankrupt, for instance) or finding a more efficient way of increasing profit.
 
-This project was made to be graded at the course of <a href="https://sites.google.com/a/ic.ufal.br/andrelage/home/lectures/2015-2" target="_blank">Petri Nets</a>, lectured by <a href="https://github.com/proflage/" target="_blank">Professor Leandro Dias</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
+This project was made to be graded at the course of <a href="http://www.cs.au.dk/~cpnbook/" target="_blank">Petri Nets</a>, lectured by <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4766554T7" target="_blank">Professor Leandro Dias</a> in the <a href="http://www.ic.ufal.br" target="_blank">Institute of Computing</a> at <a href="http://www.ufal.edu.br" target="_blank">UFAL - Federal University of Alagoas</a>.
 
 In the source files, you can find:
 
@@ -19,7 +19,7 @@ CPN Tools is a tool for editing, simulating, and analyzing Colored Petri nets.
 
 The tool features incremental syntax checking and code generation, which take place while a net is being constructed. A fast simulator efficiently handles untimed and timed nets. Full and partial state spaces can be generated and analyzed, and a standard state space report contains information, such as boundedness properties and liveness properties.
 
-CPN Tools is available for Windows, Linux and Mac OS X. If you use Linux/Mac OS X, we recommend you to download the latest stable Windows version of CPN Tools and run it using a virtual machine, since to these operating systems there is only an older version of CPN Tools available to download, but these versions are not maintained any longer.
+CPN Tools is available for Windows, Linux and Mac OS X. If you use Linux/Mac OS X, we recommend you to download the latest stable Windows version of CPN Tools and run it using a virtual machine, since to these operating systems there is only an older version of CPN Tools available to download these pand versions are not maintained any longer.
 
 To download CPN Tools, you can click <a href='http://cpntools.org/download' target='_blank'>here</a>.
 
