@@ -26,13 +26,19 @@ To download CPN Tools, you can click <a href='http://cpntools.org/download' targ
 
 ### Explaining the Petri Net
 
-#### Hearing aids devices
+#### Hearing aids devices - basic flow
 
-The client goes to the doctor, that explains to the client that he needs an hearing aid device and must perform an exam to know the exact specifications of the device that he's going to use. The client does the exam and receives the report that contains the device specifications. The client goes to the store to buy the device, the audiologoist check the specifications presented on the report and the store requests to the supplier, that will send as soon as possible the device, respecting the report specifications. When the device arrives at the store, the store audiologist makes an calibration, along with the client, so the device can be the most confortable possible when used by the client in his ears. After that, the client takes the device and the warranty works the same way of the buy flow, with no cust to the client;
+1. The client goes to the doctor, that explains to the client that he needs an hearing aid device and must perform an exam to know the exact specifications of the device that he's going to use;
+2. The client does the exam and receives the report that contains the device specifications;
+3. The client goes to the store to buy the device, the audiologist check the specifications presented on the report and the store requests to the supplier, that will send as soon as possible the device, respecting the report specifications;
+4. When the device arrives at the store, the store audiologist makes an calibration, along with the client, so the device can be the most confortable possible when used by the client in his ears;
+5. After that, the client takes the device and the warranty works the same way of the buy flow, with no cust to the client.
 
-#### Batteries
+#### Batteries - basic flow
 
-The client goes to the store to buy batteries for his device. The store checks the batteries needed by the client. If the store has a low stock of batteries it makes an request to the supplier.
+1. The client goes to the store to buy batteries for his device;
+2. The store checks the batteries needed by the client;
+2.1. If the store has a low stock of batteries, then it makes an request to the supplier.
 
 #### Supplier specifications
 
