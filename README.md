@@ -7,6 +7,7 @@ This project was made to be graded at the course of <a href="http://www.cs.au.dk
 In the source files, you can find:
 
 - `project-v1.0-with-hierarchy.cpn` to load in CPN Tools;
+- `sketchs/` a folder containing sketchs made at the begin of the project design;
 - `screenshots/` a folder containing screenshots of the petri net.
 
 Feel free to perform a pull request to the project, implementing additional functions or improving some of the existents.<br>
